@@ -45,7 +45,13 @@ $(document).ready(function(){
 
         $(document).ready(function(){
             $(".menu-icon").on("click", function(){
-                $(".header-menu").slideToggle();
+                $(".mobile-menu").toggleClass('active');
+            })
+            $(".close-menu").on("click", function(){
+                $(".mobile-menu").toggleClass('active');
+            })
+            $(".mobile-menu").find("a").on("click", function(){
+                $(".mobile-menu").toggleClass('active');
             })
              var swiper = new Swiper('.swiper-container', {
             pagination: {
