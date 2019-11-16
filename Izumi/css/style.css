@@ -1,6 +1,4 @@
-html{
-  overflow: hidden;
-}
+
 body{
     font-family: 'Asap', sans-serif;
     font-family: 'Lato', sans-serif;
@@ -692,9 +690,7 @@ hr{
 .mobile-menu{
   display: none;
 }
-.active{
-  display: none;
-}
+
 /* @media */
 @media (max-width: 1136px) {
   .wrapp-portfolio{
@@ -727,14 +723,6 @@ hr{
             justify-content: center;
   }
   }
-  @media (min-width: 768px){
-    .active{
-      display: none;
-    }
-    .mobile-menu{
-      display: none;
-    }
-    }
 @media (max-width: 768px) {
   .header-menu{
     display: none;
@@ -780,8 +768,7 @@ hr{
   }
   .mobile-menu li a{
     display: block;
- 
-    padding-top: 15px;
+    padding-top: 30px;
     color: #fff;
   }
   .menu-icon{
