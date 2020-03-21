@@ -56,7 +56,7 @@ body{
 
 .main-info{
    background: rgb(255, 255, 255,.7);
-   padding: 10px;
+   padding: 15px 50px;
 }
 
 .about-me{
@@ -93,6 +93,7 @@ img{
    width: 300px;
    margin-right: 50px;
    max-height: 310px;
+   border-radius: 50%;
 }
 .container{
    max-width: 1440px;
@@ -116,8 +117,8 @@ footer{
    position: absolute;
    bottom: 0;
    width: 100%;
-   padding: 10px 0;
    color: #ffffff;
+   padding-top: 5px;
    
 }
 footer .container{
@@ -127,4 +128,28 @@ footer .container{
 .title-footer{
    text-align: center;
    padding-bottom: 5px;
+}
+
+
+svg{
+   width: 20px;
+   height: 20px;
+   fill: #ffffff;
+   margin-right: 10px;
+}
+a{
+   display: flex;
+   color: #ffffff;
+}
+li{
+   display: flex;
+}
+footer li{
+   padding-bottom: 5px;
+}
+p a{
+   display: inline-block;
+}
+.main-info a{
+   color: #000000
 }
