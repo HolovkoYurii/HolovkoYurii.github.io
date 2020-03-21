@@ -1,60 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <title>Training projects</title>
 </head>
+
 <body>
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Landing page</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Примененные технологии</h6>
-      <p class="card-text padding-first">html 5, css 3, бургер-меню, карусель,медиа запросы, табы, float,шрифты Font
-        Awesome.</p>
-      <a href="landing-page/index.html" class="card-link">Подробнее</a>
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Shopno</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Примененные технологии</h6>
-      <p class="card-text padding">html 5, css 3, карусель, сборщик проектов gulp,препроцессор scss, flex-box, шрифты
-        Font Awesome, Google Fonts.</p>
-      <div class="">
-        <a href="Shopno/index.html" class="card-link">Подробнее</a>
+  <div class="start-screen">
+    <div class="container">
+      <div class="about-me">
+        <img src="/img/IMG_6800.JPG" alt="me foto">
+        <div class="main-info">
+          <div class="title">
+            <h1>Hi i Yurii Holovko</h1>
+            <h3> Junior front-end developer</h3>
+          </div>
+          <p>At the moment I am in an active search for new projects. I have not much experience in WEB development (1
+            month) at <a href="https://www.linkedin.com/company/alvariumsoft/">AlvariumSoft</a>.
+
+            In my projects I used Flexbox, connecting third-party fonts. Connected ready-made jquery plugins. There is
+            experience with the image format svg, png, img. I use gulp, webpack sass / scss preprocessor.
+            Every day I develop, learn new technologies, gain experience.
+          </p>
+          <div class="wrapp-project">
+            <div class="my-skills">
+              <h2 class="title-skills">My skills</h2>
+              <div class="wrapp-item">
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>SCSS</li>
+                  <li>flex-box</li>
+                  <li>basics JavaScript</li>
+                  <li>basics jQuery</li>
+                </ul>
+                <ul>
+                  <li>GULP</li>
+                  <li>WEBPACK</li>
+                  <li>SVG</li>
+                  <li>Git</li>
+                  <li>Photoshop</li>
+                  <li>Figma</li>
+                  <li>
+                    English elementary</li>
+                </ul>
+              </div>
+            </div>
+            <div class="me-project">
+              <h2 class="title-projects">
+                My training projects</h2>
+              <ul>
+                <li><a href="/Izumi/index.html">Izumi</a></li>
+                <li><a href="/landing-page/index.html">Landing page</a></li>
+                <li><a href="/Shopno/index.html">Shopno</a></li>
+                <li><a href="/Online store/index.html">Online store</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Online store</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Примененные технологии</h6>
-      <p class="card-text">html 5, css 3, bootstrap, дропдаун,сборщик проектов gulp,препроцессор scss, медиа
-        запросы,шрифты Font Awesome, Google Fonts, flex-box. Проект состоит из четырёх страниц. </p>
-      <a href="Online store/index.html" class="card-link">Подробнее</a>
+  <footer>
+    <h2 class="title-footer">
+      Contact me
+    </h2>
+    <div class="container">
+      <ul class="contact-item">
+        <li>Email: <a href="mailto:holovkoyurii90@gmail.com"> holovkoyurii90@gmail.com</a> </li>
+        <li>Phone: <a href="tel:+380508674599"> 0508674599</a></li>
+        <li>Skype: golovko.jura.g</li>
+        <li>
+          Telegram: HolovkoYurii90</li>
+        <li></li>
+        <li></li>
+      </ul>
+      <ul class="social-networks">
+        <li><a href="https://github.com/HolovkoYurii">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/yurii-holovko-2298aa193/">Linkedin</a> </li>
+        <li><a href="https://www.facebook.com/prosto.dingo">Facebook</a> </li>
+      </ul>
     </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Izumi</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Примененные технологии</h6>
-      <p class="card-text padding-first">html 5, css 3, бургер-меню, карусель,медиа запросы.</p>
-      <a href="Izumi/index.html" class="card-link">Подробнее</a>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  </footer>
 </body>
+
 </html>
