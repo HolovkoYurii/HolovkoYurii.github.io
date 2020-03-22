@@ -49,8 +49,9 @@ body{
    min-height: 100vh;
    background: url(/img/background.jpg) center no-repeat;
    background-size: cover;
-   color: #000000;
+   color: ;
    position: relative;
+   background-color: #000000;
 }
 
 
@@ -208,6 +209,7 @@ a:hover{
 @media(max-width:1220px){
    .about-me{
       display: block;
+      padding-top: 20px
    }
    img{
       display: block;
